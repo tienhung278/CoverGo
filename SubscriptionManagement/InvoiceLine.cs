@@ -2,6 +2,7 @@
 
 public class InvoiceLine
 {
+    public int Index { get; set; }
     public DateTime Start { get; set; }
     public DateTime End { get; set; }
     public decimal PricePerPeriod { get; set; }
